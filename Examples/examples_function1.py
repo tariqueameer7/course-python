@@ -7,7 +7,7 @@ str_upper_range = input("give a number")
 upper_range = int(str_upper_range)
 
 
-for n in range(2, upper_range):
+for n in range(2, upper_range+1):
     for x in range(2, n):
         if n % x == 0:
              print(n, 'equals', x, '*', n//x)
